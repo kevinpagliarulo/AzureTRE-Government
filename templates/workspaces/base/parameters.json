@@ -2,7 +2,7 @@
   "schemaType": "ParameterSet",
   "schemaVersion": "1.0.1",
   "namespace": "",
-  "name": "tre-workspace-base",
+  "name": "kevin-tre-workspace-base",
   "parameters": [
     {
       "name": "address_spaces",
@@ -26,6 +26,18 @@
       "name": "id",
       "source": {
         "env": "ID"
+      }
+    },
+    {
+      "name": "VAECID",
+      "source": {
+        "env": "VAECID"
+      }
+    },
+    {
+      "name": "CKID",
+      "source": {
+        "env": "CKID"
       }
     },
     {

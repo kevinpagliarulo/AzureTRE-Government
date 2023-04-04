@@ -35,6 +35,16 @@ variable "app_service_plan_sku" {
   description = "App Service Plan SKU"
 }
 
+variable "VAECID" {
+  type        = string
+  description = "The VAEC ID of the research project"
+}
+
+variable "CKID" {
+  type        = string
+  description = "The CloudKey ID of the research project"
+}
+
 variable "enable_local_debugging" {
   type        = bool
   default     = false
